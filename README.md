@@ -13,12 +13,14 @@ Before running this application ensure you have installed these dependencies
 2. Install Dependencies  
    pip install -r requirements.txt
 3. Database Setup
-         create database users;  
-         create tables users (    
-          id INT AUTO_INCREMENT PRIMARY KEY,    
-          name VARCHAR(255),    
-          email VARCHAR(255)    
-         );     
+         ```sql
+   CREATE DATABASE users;  
+
+   create table users (  
+       id INT AUTO_INCREMENT PRIMARY KEY,  
+       name VARCHAR(255),  
+       email VARCHAR(255)  
+   );    
 
      
 
