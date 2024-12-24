@@ -13,7 +13,7 @@ Before running this application ensure you have installed these dependencies
 2. Install Dependencies  
    pip install -r requirements.txt
 3. Database Setup
-         ```sql
+         ```sql  
    CREATE DATABASE users;  
 
    create table users (  
