@@ -12,15 +12,16 @@ Before running this application ensure you have installed these dependencies
    cd repository-name
 2. Install Dependencies  
    pip install -r requirements.txt
-3. Database Setup
-         ```sql  
-   CREATE DATABASE users;  
+3. *Database Setup*    
+   Run the following SQL commands to set up the database:  
 
-   create table users (  
-       id INT AUTO_INCREMENT PRIMARY KEY,  
-       name VARCHAR(255),  
-       email VARCHAR(255)  
-   );    
+   *CREATE DATABASE users;*    
+   
+   *CREATE TABLE users (*  
+       id INT AUTO_INCREMENT PRIMARY KEY,    
+       name VARCHAR(255),    
+       email VARCHAR(255)    
+   *);*     
 
      
 
