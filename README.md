@@ -19,9 +19,12 @@ Before running this application ensure you have installed these dependencies
    
    *CREATE TABLE users (*  
        id INT AUTO_INCREMENT PRIMARY KEY,    
-       name VARCHAR(255),    
-       email VARCHAR(255)    
-   *);*     
+       name VARCHAR(30),    
+       email VARCHAR(30)    
+   *);*
+
+4. Populate the table with sample data
+
 
      
 
