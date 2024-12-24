@@ -8,8 +8,8 @@ Before running this application ensure you have installed these dependencies
 - Git
 ### ✅ Installation and Setup
 1. Clone the Repository
-   git clone <repository-url>  
-   cd <repository-name>
+   git clone https://github.com/nehadev-2024/dev.git
+   cd repository-name
 2. Install Dependencies
    pip install -r requirements.txt
 3. Database Setup
