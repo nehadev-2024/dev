@@ -7,9 +7,11 @@ Before running this application ensure you have installed these dependencies
 - MySQL
 - Git
 ### ✅ Installation and Setup
-1. Clone the Repository  
+1. Clone the Repository
+
    git clone https://github.com/nehadev-2024/dev.git  
    cd repository-name
+   
 2. Install Dependencies  
    pip install -r requirements.txt
 3. *Database Setup*    
@@ -24,6 +26,16 @@ Before running this application ensure you have installed these dependencies
    *);*
 
 4. Populate the table with sample data
+
+🗄️ Database Interection
+
+:black_small_square:  create database users;
+
+use users;
+create table users(id int primary key, name varchar(30), email varchar(30), role varchar(30));
+insert into users(id,name,email,role) values(101,'Neha','neha@gmail.com','software developer');
+select * from users;
+select * from users where id=101; 
 
 
      
