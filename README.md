@@ -29,8 +29,9 @@ Before running this application ensure you have installed these dependencies
 
 🗄️ Database Interection
 
-:black_small_square:  create database users;
-
+:yellow_small_circle:  Create Database 
+create database users;
+:yellow_small_circle: switch database
 use users;
 create table users(id int primary key, name varchar(30), email varchar(30), role varchar(30));
 insert into users(id,name,email,role) values(101,'Neha','neha@gmail.com','software developer');
