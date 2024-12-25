@@ -29,12 +29,18 @@ Before running this application ensure you have installed these dependencies
 
 🗄️ Database Interection
 
-- Create Database create database users;  
-- switch database  use users;  
-- Create users table  create table users(id int primary key, name varchar(30), email varchar(30), role varchar(30));
-- Insert data into users table  insert into users(id,name,email,role) values(101,'Neha','neha@gmail.com','software developer');
-- Query all records from users table  select * from users;
-- Query a specific user bu ID  select * from users where id=101; 
+- Create Database  
+  create database users;    
+- switch database  
+   use users;  
+- Create users table  
+  create table users(id int primary key, name varchar(30), email varchar(30), role varchar(30));  
+- Insert data into users table  
+  insert into users(id,name,email,role) values(101,'Neha','neha@gmail.com','software developer');  
+- Query all records from users  
+  table  select * from users;  
+- Query a specific user bu ID  
+  select * from users where id=101;   
 
 
      
