@@ -29,9 +29,9 @@ Before running this application ensure you have installed these dependencies
 
 🗄️ Database Interection
 
-::diamond_shape_with_a_dot_inside:  Create Database 
+:diamond_shape_with_a_dot_inside:  Create Database 
 create database users;
-::diamond_shape_with_a_dot_inside: switch database
+:diamond_shape_with_a_dot_inside: switch database
 use users;
 create table users(id int primary key, name varchar(30), email varchar(30), role varchar(30));
 insert into users(id,name,email,role) values(101,'Neha','neha@gmail.com','software developer');
