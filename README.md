@@ -27,7 +27,7 @@ Before running this application ensure you have installed these dependencies
 
 4. Populate the table with sample data
 
-🗄️ ### **Database Interaction**
+### 🗄️ **Database Interaction**
 
 - Create Database  
   create database users;    
