@@ -37,7 +37,7 @@ Before running this application ensure you have installed these dependencies
   create table users(id int primary key, name varchar(30), email varchar(30), role varchar(30));  
 - Insert data into users table  
   insert into users(id,name,email,role) values(101,'Neha','neha@gmail.com','software developer');  
-- Query all records from users table
+- Query all records from users table  
   select * from users;   
 - Query a specific user by ID   
   select * from users where id=101;   
