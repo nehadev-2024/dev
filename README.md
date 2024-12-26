@@ -9,7 +9,7 @@ Before running this application ensure you have installed these dependencies
 ### ✅ Installation and Setup
 1. Clone the Repository
 
-   git clone https://github.com/nehadev-2024/dev.git  
+   git clone https://github.com/nehadev-2024/dev/tree/assignment 
    cd repository-name
    
 2. Install Dependencies  
