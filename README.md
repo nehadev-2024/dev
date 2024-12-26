@@ -8,11 +8,39 @@ Before running this application ensure you have installed these dependencies
 - Git
 ### ✅ Installation and Setup
 1. Clone the Repository
-   git clone <repository-url>  
-   cd <repository-name>
-2. Install Dependencies
+
+   git clone https://github.com/nehadev-2024/dev.git  
+   cd repository-name
+   
+2. Install Dependencies  
    pip install -r requirements.txt
-3. Database Setup
+3. *Database Setup*    
+   Run the following SQL commands to set up the database:  
+
+   *CREATE DATABASE users;*    
+   
+   *CREATE TABLE users (*  
+       id INT AUTO_INCREMENT PRIMARY KEY,    
+       name VARCHAR(30),    
+       email VARCHAR(30)    
+   *);*
+
+4. Populate the table with sample data
+
+### 🗄️ **Database Interaction**
+
+- Create Database  
+  create database users;    
+- switch database  
+   use users;  
+- Create users table  
+  create table users(id int primary key, name varchar(30), email varchar(30), role varchar(30));  
+- Insert data into users table  
+  insert into users(id,name,email,role) values(101,'Neha','neha@gmail.com','software developer');  
+- Query all records from users  
+  table  select * from users;  
+- Query a specific user bu ID  
+  select * from users where id=101;   
+
 
      
-
